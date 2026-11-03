@@ -1,3 +1,20 @@
+'''
+
+There is nothing called as UI here , its basic backend :)
+
+So, stop judging and see the handcoded things :)
+
+Thank you,
+
+btw something might blow off too in the project too lazy to fix now
+
+NVM............
+
+Still proud no AI SLOP SHIT :)))
+'''
+
+
+
 from flask import Flask
 from flask import render_template
 from flask import request,redirect,url_for
