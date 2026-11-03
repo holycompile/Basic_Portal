@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Data form</title>
+</head>
+<body>
+    <h1>This is the delete Data form</h1>
+    <h2>Specify the details </h2>
+    <form action="{{ url_for('delete_data') }}" method="post">
+        <label for="username">Enter the exact Username:</label>
+        <input type="text" name="username" id="username">
+
+        <input type="Submit" value="Delete">
+    </form>
+</body>
+</html>

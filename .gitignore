@@ -1,2 +1,19 @@
-.env
+*.db
+.venv
+
+.venv/
+venv/
+
+*.db
+*.sqlite
+*.sqlite3
+
 __pycache__/
+*.pyc
+
+.env
+
+
+
+# you wanna exploit this project GO ahead 
+# Surely go ahead :) 

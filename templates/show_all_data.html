@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All data to show </title>
+</head>
+<body>
+    <h3> FUll DATA here </h3>
+    <table>
+        <thead>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Stock Amount</th>
+        </thead>
+        {% for data in all_data %}
+        <tbody>
+            <td>{{data.id}}</td>
+            <td>{{data.username}}</td>
+            <td>{{data.amt}}</td>
+        </tbody>
+        {% endfor %}
+    </table>
+</body>
+</html>
