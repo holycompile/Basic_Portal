@@ -2,7 +2,7 @@
 
 There is nothing called as UI here , its basic backend :)
 
-So, stop judging and see the handcoded things :)
+So, stop judging and see the hand-coded things :)
 
 Thank you,
 
